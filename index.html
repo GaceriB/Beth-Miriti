@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Beth Miriti — Executive Assistant & Aspiring Data Scientist</title>
+  <meta name="description" content="Beth Miriti — Executive Assistant and aspiring data scientist. Portfolio showcasing projects, skills, and contact details." />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Beth Miriti</h1>
+      <p class="tagline">Executive Assistant &amp; <strong>Data Scientist in the Making</strong> — Analytical Thinker · Problem Solver</p>
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- About -->
+    <section id="about">
+      <div class="card about-grid">
+        <div>
+          <h2>About Me</h2>
+          <p class="muted">Hi — I’m <strong>Beth Miriti</strong>. I work as an Executive Assistant where I support leadership, manage operations, and turn complex information into clear action. I’m also an aspiring data scientist passionate about using data to tell stories that drive better decisions. My administrative experience gives me a strong foundation in organisation, stakeholder communication, and project coordination — skills I bring into every data project I build.</p>
+          <h3 style="margin-top:18px">How my job fuels my passion</h3>
+          <p class="muted">Working directly with executives exposes me to strategic questions and business problems every day. I see firsthand where data could create clarity — from operational KPIs to customer insights. This motivates me to gain the technical skills to build models and dashboards that solve real business challenges.</p>
+          <p style="margin-top:16px"><a class="btn" href="#projects">View Projects</a></p>
+        </div>
+        <aside>
+          <div class="about-photo">
+            <img src="https://via.placeholder.com/140" alt="Beth Miriti photo">
+          </div>
+          <div style="margin-top:14px">
+            <h4>Quick Facts</h4>
+            <ul style="padding-left:18px;color:var(--muted)">
+              <li>Current role: Executive Assistant</li>
+              <li>Career goal: Data Scientist (applied/industry)</li>
+              <li>Location: Nairobi, Kenya (or update)</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="card">
+        <h2>Skills</h2>
+        <div class="skills-list" style="margin-top:12px">
+          <span class="skill">Python (pandas, NumPy)</span>
+          <span class="skill">SQL</span>
+          <span class="skill">Data Cleaning</span>
+          <span class="skill">Data Visualization</span>
+          <span class="skill">Tableau / Power BI</span>
+          <span class="skill">Communication</span>
+          <span class="skill">People Management</span>
+          <span class="skill">Analytical Thinking</span>
+        </div>
+        <p style="margin-top:14px" class="muted">I’m focused on building end-to-end projects that combine my administrative experience with data-driven insights — bringing clarity to decision-makers.</p>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2 style="margin-bottom:12px">Projects</h2>
+      <div class="projects-grid">
+        <div class="card project">
+          <h3>Customer Churn Prediction</h3>
+          <p class="muted">Built an end-to-end classification model to identify customers likely to churn, including feature engineering, model evaluation, and a simple dashboard to visualise risk segments.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">scikit-learn</span><span class="tag">Dashboard</span></div>
+        </div>
+        <div class="card project">
+          <h3>Sales Performance Dashboard</h3>
+          <p class="muted">Developed an interactive dashboard to track monthly sales KPIs and regional performance — enabling quicker decisions in operations and resource allocation.</p>
+          <div class="tags"><span class="tag">Power BI</span><span class="tag">SQL</span><span class="tag">Visualization</span></div>
+        </div>
+        <div class="card project">
+          <h3>Refugee Data Analysis</h3>
+          <p class="muted">Performed exploratory analysis on humanitarian datasets to identify trends in refugee assistance and resource needs. Produced a summary report and recommendations for stakeholders.</p>
+          <div class="tags"><span class="tag">Data Cleaning</span><span class="tag">Reports</span><span class="tag">UNHCR</span></div>
+        </div>
+        <div class="card project">
+          <h3>Portfolio coming soon</h3>
+          <p class="muted">Working on additional projects including an A/B experiment analysis and an end-to-end ML pipeline for predictive tasks. Check back or contact me to collaborate.</p>
+          <div class="tags"><span class="tag">Kaggle</span><span class="tag">GitHub</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="card contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p class="muted">I’m open to collaborations, internships, and entry-level roles in data analysis and data science. Please reach out if you have a project or opportunity.</p>
+          <p style="margin-top:12px">Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+          <p>LinkedIn: <a href="https://linkedin.com/in/bethmiriti" target="_blank">linkedin.com/in/bethmiriti</a></p>
+          <p>GitHub: <a href="https://github.com/bethmiriti" target="_blank">github.com/bethmiriti</a></p>
+        </div>
+        <div>
+          <h3>Quick Contact Form</h3>
+          <form onsubmit="alert('This is a demo form. Replace with Netlify/Forms or mailto link.');return false;">
+            <label style="display:block;margin-bottom:8px">Your name</label>
+            <input style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef3;margin-bottom:10px" placeholder="Your name" />
+            <label style="display:block;margin-bottom:8px">Message</label>
+            <textarea style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef3;margin-bottom:10px" rows="5" placeholder="Hi Beth — I have a project..."></textarea>
+            <button type="submit" class="btn">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span> Beth Miriti — Executive Assistant & Aspiring Data Scientist</div>
+  </footer>
+
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
